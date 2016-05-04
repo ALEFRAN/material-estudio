@@ -1,0 +1,36 @@
+Caso de Uso: prestamos de ejemplares a domicilio.
+
+Alcance del caso de uso: 
+- Sistema
+
+Meta:
+- Usuario
+
+Interaccion:
+- Dialogal
+
+Precondiciones: 
+- Obviadas para simplificar. 
+
+Actores: 
+- Socio 
+- Bibliotecario.
+
+El socio se presenta con el ejemplar de un libro ante la bibliotecaria. 
+
+Camino basico:
+	1- El bibliotecario ingresa el numero del socio.
+	2- El sistema: 
+		2.1- valida que el socio exista.
+		2.2- comprueba que no este inhabilotado ni sancionado.
+		2.3- el sistema muestra nombre y apellido y el estado del socio.
+	3- El bibliotecario ingresa al sistema el numero de ejemplar. 
+	4- El sistema valida:
+		4.1- Regla de Negocio n° 7, 11
+		4.2- El sistema muestra el nombre del libro
+	Se repiten los pasos 3 y 4 paro todos los ejemplares que el socio se quiera llevar.
+
+Camino alternativo: 
+Lo vamos a obviar para simplificar el caso de uso
+	
+	
