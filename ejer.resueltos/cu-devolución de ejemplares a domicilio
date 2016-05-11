@@ -33,8 +33,18 @@ Camino basico:
     
 Caminos alternativos:
 
+2.1.A- El socio no existe.
+2.1.A.1- El sistema muestra el mensaje 
+"El número de socio no existe".
+2.1.A.2- Termina el caso de uso.
+
 4.1.A- Cuando corresponda sanción (RN n° 5).
 4.1.A.1- Se registra la sanción
 4.1.A.2- Vuelve al paso 4.2 .
     
+
+Éxito: Se registró la devolución.
+Éxito de los caminos alternativos: Se registró la sanción.
+
+Fracaso: No se registró la devolución
     
