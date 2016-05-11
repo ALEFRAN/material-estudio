@@ -26,11 +26,20 @@ Camino basico:
 		2.3- el sistema muestra nombre y apellido y el estado del socio.
 	3- El bibliotecario ingresa al sistema el numero de ejemplar. 
 	4- El sistema valida:
-		4.1- Regla de Negocio n� 7, 11
+		4.1- Regla de Negocio n° 7, 11
 		4.2- El sistema muestra el nombre del libro
 	Se repiten los pasos 3 y 4 paro todos los ejemplares que el socio se quiera llevar.
-
+	5- El bibliotecario ingresa la cantidad de días del préstamo solicitados por el socio.
+	6- El sistema: 
+		6.1- Valida regla de negocio n°8.
+		6.2- El sistema muestra la fecha de devolución.
+	7- El bibliotecario confirma el préstamo
+	8- El sitema:
+		8.1- Registra el préstamo
+		8.2- Muestra el n° de préstamo (RN n° 15)
 Camino alternativo: 
 Lo vamos a obviar para simplificar el caso de uso
+
+Éxito: el préstamo quedó registrado
 	
 	
